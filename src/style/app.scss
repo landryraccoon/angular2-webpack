@@ -1,4 +1,12 @@
 // styles in src/style directory are applied to the whole page
+
+// import font-awesome
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome.scss";
+
+// import bootstrap styles
+@import "~bootstrap/scss/bootstrap.scss";
+
 body {
     background: #0147A7;
     color: #fff;
